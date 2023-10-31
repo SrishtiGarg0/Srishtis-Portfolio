@@ -1,0 +1,164 @@
+header {
+  background-color: #9da1d1;
+  color: black;
+  height: 40px;
+  text-align: center;
+}
+
+nav {
+  height: 40px;
+  padding-top: 10px;
+  background-color: darkgrey;
+}
+
+#wrapper{
+  background-color: mintcream;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wrapper2{
+  background-color: lightblue;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#education
+{
+  background-color: lightblue;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume
+{
+  background-color: lightblue;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.imgcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+nav{
+  height: 40px;
+  background-color:white;
+}
+
+nav ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right : 10px;
+}
+
+nav li a {
+  display: inline-block;
+  color: green;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+nav a:link
+{
+  color: darkblue;
+}
+
+nav a:visited
+{
+  color: darkgreen;
+}
+
+nav a:hover
+{
+  color: darkorchid;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #aba8b3;
+        }
+      
+
+footer{
+  background-color: #9da1d1;
+}
+
+.social-media {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .social-icon {
+        color: #333;
+        font-size: 24px; 
+        margin: 0 10px; 
+        transition: color 0.3s;
+    }
+
+    .social-icon:hover {
+        color: #0077B5;
+    }
+
+
+
+form {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
